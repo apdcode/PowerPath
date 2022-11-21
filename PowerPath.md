@@ -1,14 +1,15 @@
 
 
-Info fra Ulrikke (kronologisk tilsendt rekkefølge):
+# Info fra Ulrikke (kronologisk tilsendt rekkefølge):
 
 1. [Developer Program](https://developer.microsoft.com/en-us/microsoft-365/dev-program)
 2. [Power Up](https://powerup.microsoft.com/)
 3. [Dynug](https://www.dynug.no/2022/11/08/bli-med-pa-dynug-skills-challenge/)
 4. [Get started with Power Pages tutorials](https://learn.microsoft.com/en-us/power-pages/getting-started/tutorial-overview)
+5. [Learning paths](https://learn.microsoft.com/en-us/training/)
 
 
-Certifications hos GlassPaper:
+# Certifications hos GlassPaper:
 
 1. [PL-900: Microsoft Power Platform Fundamentals](https://www.glasspaper.no/en/courses/pl-900/)
 2. [PL-100: Microsoft Power Platform App Maker](https://www.glasspaper.no/en/courses/pl-100-microsoft-power-platform-app-maker/)
@@ -17,4 +18,26 @@ Certifications hos GlassPaper:
 5. [PL-400: Microsoft Power Platform Developer](https://www.glasspaper.no/en/courses/pl-400-microsoft-power-platform-developer/)
 6. [PL-600: Power Platform Solution Architect](https://www.glasspaper.no/en/courses/pl-600-power-platform-solution-architect/)
 7. [PL-500: Microsoft Power Automate RPA Developer](https://www.glasspaper.no/en/courses/pl-500-microsoft-power-automate-rpa-developer/)
+
+Resources
+
+[Microsoft 365 / Developer Program / Dashboard](https://developer.microsoft.com/en-us/microsoft-365/profile)
+
+# Collections:
+
+#### Started on:
+
+[Core components of Power Pages / learn.microsoft.com](https://learn.microsoft.com/en-us/training/modules/power-pages-intro/)
+
+#### Stuck on:
+
+[make.powerpages.microsoft.com](https://make.powerpages.microsoft.com/e/Default-efe9fc32-844b-45fe-a128-553444bb9a67/portals/create#portalDetailsPage)
+
+
+# Sharepoint
+
+[Practices / AI Analytics](https://iteracloud.sharepoint.com/sites/practices/sitepages/Practice.aspx?practiceId=5)
+
+
+
 
