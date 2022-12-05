@@ -105,9 +105,50 @@ Mål 1 er Power Platform forståelse
 
 [Admin PowerApps!!](https://admin.powerapps.com/)
 
+[make.powerautomate.com](https://make.powerautomate.com/galleries/public/templates/65ceb79430ef4956a0855fbe09249cdf/save-office-365-email-attachments-to-onedrive-for-business?fromflowportal=true&environment=c9528a9c-30c1-ead1-9d99-f3413533305d)
+
+[**`Launch Power Automate`**](https://make.powerautomate.com/environments/c9528a9c-30c1-ead1-9d99-f3413533305d/home?fromflowportal=true)
+
+[PL-900 Exam Registration](https://examregistration.microsoft.com/?whr=uri:MicrosoftAccount&locale=en-us&examcode=PL-900&examname=Exam%20PL-900:%20Microsoft%20Power%20Platform%20Fundamentals&returnToLearningUrl=https%3A%2F%2Fdocs.microsoft.com%2Flearn%2Fcertifications%2Fexams%2Fpl-900&silentauth=msa&channel=AnonymousAuthenticated#accountlinkingAndPreferences)
 
 ---
+
+# Course resource Collection:
+
+[M1U5/8 - Microsoft Power Platform Admin Center](https://admin.powerplatform.microsoft.com/home)
+
+# Course Knowledge Checks
+
+## [M1U7/8](https://learn.microsoft.com/en-gb/training/modules/introduction-power-platform/5-knowledge-check)
+
+---
+# ***COURSE CONTENT***
+
 # 1. Introduction to Microsoft Power Platform
+
+## [Unit 4/8 - Data Connectors](https://learn.microsoft.com/en-gb/training/modules/introduction-power-platform/3-data-connectors)
+
+**Tabular data** - Returns data in a structured table format. Power Apps can directly read and display these tables through galleries, forms, and other controls. Additionally, if the data source supports it, Power Apps can create, edit, and delete data from these data sources. Examples include Microsoft Dataverse, SharePoint, and SQL Server.
+
+**Function-based data** - Uses functions to interact with the data source. These functions can be used to return a table of data but offer more extensive action such as the ability to send an email, update permissions, or create a calendar event. Examples include Office 365 Users, Project Online, and Azure Blob Storage.
+
+**Connectors** - The bridges from your data source to your app, workflow, or dashboard. Microsoft Power Platform has more than 600 connectors available to common data sources. Connectors are divided into standard and premium. Some popular standard connectors are SharePoint, Outlook, and YouTube. Premium connectors require additional licensing for your app and/or users. A few premium connectors are SQL Server, Survey Monkey, and Mail Chimp.
+
+**Creating Custom Connectors** - You can create custom connectors using 3 different approaches:
+
+    Using a blank custom connector
+    From an OpenAPI definition
+    From a Postman collection
+
+## [Unit 5/8 Data loss prevention, compliance, privacy, and accessibility](https://learn.microsoft.com/en-gb/training/modules/introduction-power-platform/3a-data-loss-prevention-compliance-privacy-accessibility)
+
+**Data loss prevention policies** - Connectors can be classified as either Business or Non-Business in the context of your organization. Connectors that host business-use data should be classified as Business and connectors that host personal-use data should be classified as Non-Business. Any connectors that you want to restrict usage of across one or more environments should be classified as Blocked. When a new policy is created, all connectors are defaulted to the Non-Business group. From there they can be moved to Business or Blocked based on your preference. You can manage connectors when you create or modify the properties of a DLP policy from the [Microsoft Power Platform admin center](https://admin.powerplatform.microsoft.com/). These affect Microsoft Power Platform canvas apps and Power Automate flows. To create a DLP policy, you need to be a tenant admin or have the Environment Admin role.
+
+[NEW Resource - Microsoft Power Platform Admin Center](https://admin.powerplatform.microsoft.com/home)
+
+**Data Protection** - All public endpoints are secured using industry-standard TLS
+
+## [Unit 7/8 - Knowledge Check](https://learn.microsoft.com/en-gb/training/modules/introduction-power-platform/5-knowledge-check)
 
 
 ### 1.1 Summary
@@ -182,6 +223,81 @@ And this is only where the troubles begin. Everything else on this page is outda
 [How to manage security for Power Automate](https://admin.powerplatform.microsoft.com/)
 
 ### [Customer Case study - TruGreen](https://learn.microsoft.com/en-us/training/modules/introduction-power-automate/3-customer-case-study-trugreen)
+
+### [TruGreen Full Case Study](https://customers.microsoft.com/story/759484-trugreen-partner-professional-services-power-virtual-agents)
+
+### [Unit 4/6 -  Power Automate in action](https://learn.microsoft.com/en-us/training/modules/introduction-power-automate/4-power-automate-action)
+
+### [Unit 5/6 -  Knowledge check](https://learn.microsoft.com/en-us/training/modules/introduction-power-automate/5-knowledge-check)
+
+### [Unit 6/6 -  Summary](https://learn.microsoft.com/en-us/training/modules/introduction-power-automate/6-summary-resources)
+
+---
+# [How to build an automated solution](https://learn.microsoft.com/en-us/training/modules/build-automated-solution/)
+
+### [Unit 1/7 - Intro](https://learn.microsoft.com/en-us/training/modules/build-automated-solution/1-introduction)
+
+### [Unit 2/7 - Create a flow from a template](https://learn.microsoft.com/en-us/training/modules/build-automated-solution/2-create-flow-template)
+
+For Templates, go to [Power Automate and search for template](https://powerautomate.microsoft.com/en-us/) and select `Templates` from the left-hand menu => This description is outdated.
+
+**`New Top Resource`** => [make.powerautomate.com, had to register with apdcode@xryk4.onmicrosoft.com](https://make.powerautomate.com/galleries/public/templates/65ceb79430ef4956a0855fbe09249cdf/save-office-365-email-attachments-to-onedrive-for-business?fromflowportal=true&environment=c9528a9c-30c1-ead1-9d99-f3413533305d)
+
+
+
+[Unit 3/7 - Build recurring flows](https://learn.microsoft.com/en-us/training/modules/build-automated-solution/2a-build-recurring-flows)
+
+[**`Launch Power Automate`**](https://make.powerautomate.com/environments/c9528a9c-30c1-ead1-9d99-f3413533305d/home?fromflowportal=true)
+
+**ERROR** Under [Create the flow](https://learn.microsoft.com/en-us/training/modules/build-automated-solution/2a-build-recurring-flows) you're asked to:
+
+    2. In the left pane, select + Create.
+    3. Select Scheduled cloud flow under Start from blank.
+
+=> `Start from blank` does not exist, but `Build your own` does, with `Start from blank...`  as part of a subtext.
+However, the next step doesn't exist either:
+
+![where is the dialog box](https://i.stack.imgur.com/O3hvL.png)
+
+clicking `Build your own` will reveal a `Scheduled` option. But is it scheduled *cloud* flow? The user interfaces on `Power Automote` differs signifiantly from the tutorial as well:
+
+![is this a scheduled cloud flow](https://i.stack.imgur.com/PhKyz.png)
+
+**This unit was a complete disaster. NOTHING made sense between the tutorial and the app**
+
+### [Unit 4/7 - Build a button flow](https://learn.microsoft.com/en-us/training/modules/build-automated-solution/2b-build-button-flow)
+
+Skipped this section since the prvevious section was a complete mess. Needed a mobile app as well.
+
+### [Unit 5/7 - Build an approval request](https://learn.microsoft.com/en-us/training/modules/build-automated-solution/2b-build-button-flow)
+
+Needed SharePoint and twitter. SKIPPED!
+
+### [Unit 6/7 - Knowledge check](https://learn.microsoft.com/en-us/training/modules/build-automated-solution/4-knowledge-check)
+
+### [Unit 7/7 - Summary and Resources](https://learn.microsoft.com/en-us/training/modules/build-automated-solution/5-summary-resources)
+
+---
+# [Introduction to PowerBI](https://learn.microsoft.com/en-us/training/modules/introduction-power-bi/)
+
+
+
+
+
+# [EXAM](https://learn.microsoft.com/en-us/certifications/exams/pl-900)
+
+Download [PL-900 study guide](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE43Nnn)
+
+Free [sample questions](https://learn.microsoft.com/en-us/certifications/resources/pl-900-sample-questions?azure-portal=true)
+
+Exam [sandbox](https://www.starttest.com/ITDVersions/22.0.0.0/ITDStart.aspx?SVC=bf127c8e-1088-408e-ae89-6ad20bc73caf)
+
+
+
+
+
+
+
 
 
 
