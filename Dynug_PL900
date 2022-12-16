@@ -1,19 +1,23 @@
----
+# [DYNUG challenge - Powerplatform Fundamentals](https://learn.microsoft.com/en-us/users/cloudskillschallenge/collections/25m3h1djy2em?WT.mc_id=cloudskillschallenge_6754b9c4-974f-4424-92d2-d71332315873)
 
-# Course resource Collection:
+## Resource Collection:
 
 [RSRC01 - M1U5/8 - Microsoft Power Platform Admin Center](https://admin.powerplatform.microsoft.com/home)
 
-# Course Knowledge Checks
+[RSRC03 - M2U2/5 - Power Apps](https://make.powerapps.com/)
 
-## [KCHK01 - M1U7/8](https://learn.microsoft.com/en-gb/training/modules/introduction-power-platform/5-knowledge-check)
+[RSRC04 - M03U3/5 - Center of Excellence (download)](https://aka.ms/CoEStarterKitDownload)
 
-## [KCHK02 - M2U8/9](https://learn.microsoft.com/en-us/training/modules/introduction-common-data-service/8-knowledge-check)
+## Course Knowledge Checks
+
+### [KCHK01 - M1U7/8](https://learn.microsoft.com/en-gb/training/modules/introduction-power-platform/5-knowledge-check)
+
+### [KCHK02 - M2U8/9](https://learn.microsoft.com/en-us/training/modules/introduction-common-data-service/8-knowledge-check)
 
 ---
-# ***COURSE CONTENT***
 
-# 1. Introduction to Microsoft Power Platform
+
+# Module 1. [Introduction to Microsoft Power Platform](https://learn.microsoft.com/en-us/training/modules/introduction-power-platform/?WT.mc_id=cloudskillschallenge_6754b9c4-974f-4424-92d2-d71332315873)
 
 ## [Unit 4/8 - Data Connectors](https://learn.microsoft.com/en-gb/training/modules/introduction-power-platform/3-data-connectors)
 
@@ -46,9 +50,9 @@
 
 
 ---
-# 2. Introduction to Data Verse
+# Module 2. [Introduction to Data Verse](https://learn.microsoft.com/en-us/training/modules/introduction-common-data-service/?WT.mc_id=cloudskillschallenge_6754b9c4-974f-4424-92d2-d71332315873)
 
-[Unit 1/9 - Introduction](https://learn.microsoft.com/en-us/training/modules/introduction-common-data-service/1-introduction)
+## [Unit 1/9 - Introduction](https://learn.microsoft.com/en-us/training/modules/introduction-common-data-service/1-introduction)
 
 In this module, you will:
 
@@ -119,17 +123,86 @@ Model-driven apps can also use business rules to:
 
 ---
 
+# Module 3. [Introduction to Power Apps](https://learn.microsoft.com/en-us/training/modules/introduction-power-apps/?WT.mc_id=cloudskillschallenge_6754b9c4-974f-4424-92d2-d71332315873)
 
+### Different types of Power Apps for different scenarios
 
-# 3. Introduction to Power Apps
+**Canvas aps** - Build from blank canvas, provides full flexibility
 
-#### 3.1 [Knowledge Check 1/1](https://learn.microsoft.com/en-us/training/modules/introduction-power-apps/5-knowledge-check)
+**Model driven apps** - Build from Dataverse, responsive (works on mobile, tablet etc). You define the relationships, forms, views, business rules, and more at the data layer, inside of the Dataverse.
 
-#### 3.2 [Summary and resources](https://learn.microsoft.com/en-us/training/modules/introduction-power-apps/6-summary-resources)
+**Portals** - Externally facing websites, build anonymous or authenticated website that can interact with Dataverse. You can apply Azure Machine Learning and Cognitice services without code, and create complex machine learning models. **Ready to use components**: Business card reader.
+
+[NEW resource - Make Power Apps](https://make.powerapps.com/)
+
+## Four available AI models in Power Apps:
+
+**Prediction -** This model predicts whether something will happen or not based on previous data history. More details in the following section.
+
+**Form processor -** This model extracts text from an image like the business card reader.
+
+**Object detector -** This model identifies objects from an uploaded image or taken photo and then provides a count of the number of objects present.
+
+**Text classification -** This model categorizes text by its meaning, making it is easier to analyze.
+
+### Security and Administration
+
+Power Apps also has its own set of `PowerShell cmdlets` for app creators, administrators, and developers that allow you to automate many of your administrative duties. A common use case of the PowerShell cmdlets is to automate the discovery and permission management of all apps in your tenant, allowing you to better understand and manage apps as they are created and spread throughout your company.
+
+[NEW Resource - Center of Excellence (download)](https://aka.ms/CoEStarterKitDownload) - 
+a collection of components or tools that are designed to help get started with developing a strategy for adopting and supporting Microsoft Power Platform, with a focus on Power Apps and Power Automate.
+
+## [Unit 3/5 - Customer case study - Heathrow Airport](https://learn.microsoft.com/en-us/training/modules/introduction-power-apps/3-customer-case-study-heathrow-airport)
+
+## [Unit 4/5 - Knowledge Check](https://learn.microsoft.com/en-us/training/modules/introduction-power-apps/5-knowledge-check)
+
+## [Unit 5/5 - Summary and resources](https://learn.microsoft.com/en-us/training/modules/introduction-power-apps/6-summary-resources)
+
+This section includes links to the following resources:
+
+    
+    # Power Apps
+    Power Apps Resources
+    # Learn more about AI Builder
+    AI Builder
+    AI Builder Documentation
+    # Learn more about Portals
+    Portals
+    Portals Documentation
+
 
 ---
 
 # 4. How to build a canvas app
+
+## [Unit 2/7 - Learn Basic Elements](https://learn.microsoft.com/en-us/training/modules/build-app-solution/2-learn-basic-elements)
+
+1. **Galleries** - Used to display rows from a table of data. Display of rows is defined by a template.
+2. **Forms** - A user browses a gallery to find and select the desired row to view the details on the form.
+3. **Input controls** - Can be added to galleries, forms and and screens to allow maximum flexibility.
+4. **Intelligent controls** - hardware-backed controls which allow access to the camera, bar code scanner, GPS, and more hardware features
+5. **Functions** - Functions are the glue that binds all these controls, inputs, and data sources together. Can be used for actions such as sending data to a data source, formatting information, creating animations, and more.
+
+## [Unit 3/7 - How to build a canvas app](https://learn.microsoft.com/en-us/training/modules/build-app-solution/3-build-canvas-app)
+
+The basic Power Apps creator journey will look something like this:
+
+1. Identify a business need that could be filled by Power Apps
+2. Connect to any necessary data in your Power Apps
+3. Design the app using controls, buttons, and an easy to use interface for your end user to interact with the data to accomplish the business need
+4. Save and publish the app and test functionality
+5. Once satisfied, share the app with end users to give them a better business process
+
+## [Unit 4/7 - Get started with functions in Power Apps](https://learn.microsoft.com/en-us/training/modules/build-app-solution/4-get-started-functions-power-apps)
+
+### Common functions:
+
+Filter - Used with galleries or tables of data to narrow down the rows returned from your data source: data that falls in a certain date range, has a set value, or was created by the user for example.
+Match - check a value to see if it follows a given pattern. Conditional formatting.
+Distinct - Return unique values from a list of data.
+Math functions - Such as Sum or Average to the complex such as Atan and Sin.
+
+[New Resource - Use basic formulas to make better Power Apps canvas apps](https://learn.microsoft.com/en-us/training/paths/use-basic-formulas-powerapps-canvas-app/)
 
 ### Contoso data source on OneDrive: "C:\Users\ArnePetterDrageset\OneDrive - Itera\PowerApps\Contoso Site Tracking.xlsx"
 
@@ -175,9 +248,19 @@ And this is only where the troubles begin. Everything else on this page is outda
 ### [Unit 8/8 - Summary](https://learn.microsoft.com/en-us/training/modules/how-build-model-driven-app/08-summary)
 
 ---
-# [Introduction to Power Automate](https://learn.microsoft.com/en-us/training/modules/introduction-power-automate/1-introduction)
+# Module 6 - [Introduction to Power Automate](https://learn.microsoft.com/en-us/training/modules/introduction-power-automate/1-introduction)
 
-### [Unit 2/6 - What is Power Automate and the value it brings to you](https://learn.microsoft.com/en-us/training/modules/introduction-power-automate/2-what-power-automate-value-brings-you)
+## [Unit 2/6 - What is Power Automate and the value it brings to you](https://learn.microsoft.com/en-us/training/modules/introduction-power-automate/2-what-power-automate-value-brings-you)
+
+
+### Power Automate works by creating flows, of which there are three types:
+
+**Cloud flows -** build with a trigger and then one or more actions. You'll see these as My flows and Team flows in Power Automate. The only difference between a My flow and a Team flow is ownership. 
+
+**Business process flows -** These flows are built to augment the experience when using Model-driven apps and Microsoft Dataverse. U
+
+**Desktop flows -** These robotic process automation (RPA) flows allow you to record yourself performing actions on your desktop or within a web browser. You can then trigger a flow to perform that process for you. You can also pass data in or get data out of the process, letting you automate even "manual" business processes.
+
 
 [How to manage security for Power Automate](https://admin.powerplatform.microsoft.com/)
 
@@ -187,18 +270,45 @@ And this is only where the troubles begin. Everything else on this page is outda
 
 ### [Unit 4/6 -  Power Automate in action](https://learn.microsoft.com/en-us/training/modules/introduction-power-automate/4-power-automate-action)
 
+[Video (link not working, use the one above)]()
+
 ### [Unit 5/6 -  Knowledge check](https://learn.microsoft.com/en-us/training/modules/introduction-power-automate/5-knowledge-check)
 
 ### [Unit 6/6 -  Summary](https://learn.microsoft.com/en-us/training/modules/introduction-power-automate/6-summary-resources)
 
+[New resource - Build your own flow with Power Automate](https://flow.microsoft.com/)
+
+[New resource - Power Automate Documentation](https://learn.microsoft.com/en-us/flow/)
+
 ---
 # [How to build an automated solution](https://learn.microsoft.com/en-us/training/modules/build-automated-solution/)
 
-### [Unit 1/7 - Intro](https://learn.microsoft.com/en-us/training/modules/build-automated-solution/1-introduction)
+## [Unit 1/7 - Intro](https://learn.microsoft.com/en-us/training/modules/build-automated-solution/1-introduction)
 
-### [Unit 2/7 - Create a flow from a template](https://learn.microsoft.com/en-us/training/modules/build-automated-solution/2-create-flow-template)
+## [Unit 2/7 - Create a flow from a template](https://learn.microsoft.com/en-us/training/modules/build-automated-solution/2-create-flow-template)
 
 For Templates, go to [Power Automate and search for template](https://powerautomate.microsoft.com/en-us/) and select `Templates` from the left-hand menu => This description is outdated.
+
+### Some examples of types of actions you can have in a flow include:
+
+**Loops –** Runs an action until conditions are met to move to the next step of the flow
+
+**Switch –** Identifies a single case to execute based on the evaluation of input
+
+**Do Until –** Executes a block of actions until a specified condition evaluates to true
+
+**Apply to each –** Executes a block of actions for each item in the input array
+
+**Expressions –** underlying definition that describes the actual logic that runs in your flow that can be manually written
+
+### When defining triggers, there are a few different types:
+
+**When something changes:** These are triggers that run when data is changed. It could be a new item created in SharePoint, a lead is updated in Dynamics, or when an event has been deleted from Outlook for example. ***The previous flow is an example of a flow that runs when something changes.*** WWTTFF
+
+**On a schedule:** You can set up a flow to be triggered at a certain time of a day and with a recurrence. 
+
+**On a button press:** This can be when a flow virtual button is run through the mobile app, or a physical button is clicked with 3rd party options, or even when a button is pressed inside of Power Apps. 
+
 
 **`New Top Resource`** => [make.powerautomate.com, had to register with apdcode@xryk4.onmicrosoft.com](https://make.powerautomate.com/galleries/public/templates/65ceb79430ef4956a0855fbe09249cdf/save-office-365-email-attachments-to-onedrive-for-business?fromflowportal=true&environment=c9528a9c-30c1-ead1-9d99-f3413533305d)
 
@@ -241,9 +351,31 @@ Needed SharePoint and twitter. SKIPPED!
 
 
 
+---
 
+# [Virtual Training Day 14.12.2022]()
+
+![Business_rules](https://i.stack.imgur.com/81I3i.png)
+![PPAC - Power Plotform Admin Center](https://i.stack.imgur.com/ONg2z.png)
+
+
+# After the Microsoft Power Platform Vitual Training Day Info:
+
+    Welcome to our Virtual event everyone! We’re starting soon at 10 am, meanwhile letting you know, here you can ask your questions privately to our presenters anytime during the event.
+
+    .
+
+    What is the process for testing for a certification ?
+
+    Once you have completed this training you are eligible to take the Microsoft Power Platform Fundamentals certification exam at no cost. How to schedule your exam: • Five business days after the event has concluded click to view exam details https://docs.microsoft.com/en-us/learn/certifications/exams/pl-900 • Click the Schedule Exam button to begin the online registration process • Sign in or create a Certification Profile • Navigate to the exam discounts page and enter the EMAIL you REGISTERED for the event with. You must link your account to receive discount. • For any issues with your exam redemption, please open a case with Certification Support https://aka.ms/mvtdexamsupport • For more guidance, see Demo video: How to redeem your discounted exam https://www.microsoft.com/en-us/videoplayer/embed/RE4DoHP
+
+# EXAM
+
+[Info](https://wsr.pearsonvue.com/testtaker/registration/SelectExamOptionsPage/MICROSOFT?conversationId=101936)
 
 # [EXAM](https://learn.microsoft.com/en-us/certifications/exams/pl-900)
+
+[ServiceNow](https://itera.service-now.com/sp?id=ticket&is_new_order=true&table=incident&sys_id=b4403fd8973319503efdbaa3f153af90)
 
 Download [PL-900 study guide](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE43Nnn)
 
