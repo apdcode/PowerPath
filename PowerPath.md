@@ -35,6 +35,9 @@
 
     Administrator Password: Nor*e*O**O*N**3**#
 
+    Outlook Email: apdcode@outlook.com
+    Password: Nor*e*O**3**
+
 [PowerApps domain](https://make.powerapps.com/environments/Default-5b2f707d-768d-4993-8eb8-b3378d6f4a23/home?offer=dev)
 
 [Holy fracking oilspill shitshow, another login, another environment](https://make.powerapps.com/environments/c9528a9c-30c1-ead1-9d99-f3413533305d/home?offer=dev&ScenarioId=Signup)
